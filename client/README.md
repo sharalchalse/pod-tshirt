@@ -28,7 +28,9 @@ A responsive print-on-demand T-shirt design web app built using **React**, allow
 ## 📦 Getting Started (Local Development)
 
 ```bash
-git clone https://github.com/yourusername/pod-tshirt-store.git
+git clone https://github.com/sharalchalse/pod-tshirt.git
 cd pod-tshirt-store/client
 npm install
 npm run dev  # or npm start
+
+

@@ -77,7 +77,7 @@ const Tshirt = () => {
             setButtonVersion((prev) => (prev % 3) + 1);
           }}
         >
-          <img  src="../public/images/themes-icon.png"  alt="" height="30px" width="30px" />
+          <img  src="/images/themes-icon.png"  alt="" height="30px" width="30px" />
             
         </button>
       </div>

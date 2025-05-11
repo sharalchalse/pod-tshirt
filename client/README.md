@@ -1,12 +1,34 @@
-# React + Vite
+# POD T-Shirt Store
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive print-on-demand T-shirt design web app built using **React**, allowing users to upload images or input text to preview designs on a T-shirt in real-time. Includes dynamic theme switching and customizable user inputs (height, weight, build).
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## Expanding the ESLint configuration
+- 🧍 User inputs: height, weight, body build
+- 🎨 Add custom text (up to 3 lines)
+- 🖼 Upload and preview design image
+- 👕 Real-time T-shirt design preview
+- 🎛 Theme switching with `Alt + Q`
+- ✅ React Hook Form for validation
+- 🔔 Toast notifications on submission
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+- Frontend: **React**
+- Styling: **Bootstrap 5**
+- Notifications: **react-toastify**
+- Hosting: **Cloudflare Pages**
+
+---
+
+## 📦 Getting Started (Local Development)
+
+```bash
+git clone https://github.com/yourusername/pod-tshirt-store.git
+cd pod-tshirt-store/client
+npm install
+npm run dev  # or npm start
